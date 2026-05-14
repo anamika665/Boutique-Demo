@@ -2,7 +2,7 @@
 
 A responsive and stylish boutique e-commerce demo website designed to showcase products with an elegant user experience.
 
-##**Features:**##
+##**Features:**
 
 - Modern homepage
 - Responsive navbar
@@ -11,12 +11,12 @@ A responsive and stylish boutique e-commerce demo website designed to showcase p
 - Contact page
 - Cart demo
 
-##**Built With:**##
+##**Built With:**
 
 - HTML
 - CSS
 - JavaScript
 
-##**Purpose:**##
+##**Purpose:**
 
 Created as a custom boutique website demo for future full e-commerce development.
