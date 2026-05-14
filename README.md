@@ -17,6 +17,9 @@ A responsive and stylish boutique e-commerce demo website designed to showcase p
 - CSS
 - JavaScript
 
+##**🌍 Live Demo:**
+https://boutique-demo-beta.vercel.app/
+
 ##**Purpose:**
 
 Created as a custom boutique website demo for future full e-commerce development.
