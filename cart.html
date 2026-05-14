@@ -1,0 +1,105 @@
+
+<section class="cart-section">
+  <h2>Your Cart</h2>
+
+  <div class="empty-cart">
+    <div class="cart-icon">🛍️</div>
+    <h3>Your cart is currently empty</h3>
+    <p>
+      Looks like you haven’t added anything to your boutique collection yet.
+      Explore our latest fashion arrivals and discover your perfect style.
+    </p>
+
+    <a href="http://127.0.0.1:5500/collection.html" class="shop-btn">Continue Shopping</a>
+  </div>
+</section>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Nunito:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(145deg, #1c1e25, black);
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+.cart-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cart-section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  color: #ff4f87;
+  margin-bottom: 40px;
+}
+
+
+.empty-cart {
+  max-width: 650px;
+  width: 100%;
+  padding: 50px 35px;
+  background: linear-gradient(145deg, #1c1e25, black);
+  border-radius: 24px;
+  box-shadow: 0 0 30px rgba(255, 79, 135, 0.08);
+}
+
+.cart-icon {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.empty-cart h3 {
+  font-size: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 15px;
+}
+
+.empty-cart p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.shop-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background: #ff4f87;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .cart-section h2 {
+    font-size: 2.3rem;
+  }
+
+  .empty-cart {
+    padding: 40px 28px;
+    max-width: 500px;
+
+  }
+
+  .cart-icon {
+    font-size: 4rem;
+  }
+
+  .empty-cart h3 {
+    font-size: 1.7rem;
+  }
+}
+</style>

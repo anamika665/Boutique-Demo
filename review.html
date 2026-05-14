@@ -1,0 +1,363 @@
+ 
+ <body>
+    <header class="navbar">
+        <div class="logo-section">
+            <img src="images/k-logo.jpeg" alt="Khushi Boutique Logo">
+            <h2>Khushi Boutique</h2>
+            <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/collection.html">Collections</a></li>
+                <li><a href="http://127.0.0.1:5500/review.html">Reviews</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i> Cart
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<section class="testimonial-section">
+  <div class="testimonial-left">
+    <h2>Customer Reviews</h2>
+    <p>
+      Real customer experiences from Khushi Boutique, Jamshedpur.
+      Reviews highlight boutique quality, trendy collections,
+      reasonable prices, and customer satisfaction.
+    </p>
+
+    <div class="review-note">
+      ⭐ Google Rating: 4.8/5 <br>
+      👗 180+ customer reviews
+    </div>
+  </div>
+
+  <div class="testimonial-grid">
+
+    <div class="testimonial-card ">
+      <span class="quote">❝</span>
+      <div class="profile">
+        <div>
+          <h3>Happy Customer</h3>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <p>
+        “Awesome collection. Reliable prices with latest designs and trends.
+        Beautiful collection and highly recommended.”
+      </p>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="quote">❝</span>
+      <div class="profile">
+        <div>
+          <h3>Fashion Lover</h3>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <p>
+        “One stop place for designer lehengas, sarees, kurtis & gowns
+        at reasonable prices. Huge variety.”
+      </p>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="quote">❝</span>
+      <div class="profile">
+        <div>
+          <h3>Verified Buyer</h3>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <p>
+        “Very unique collection. Great quality, latest fashion,
+        and friendly boutique owner.”
+      </p>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="quote">❝</span>
+      <div class="profile">
+        <div>
+          <h3>Loyal Customer</h3>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <p>
+        “Excellent designer collections with best pricing.
+        Must visit boutique in Jamshedpur.”
+      </p>
+    </div>
+
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2>Khushi Boutique</h2>
+      <p>
+        Elegant fashion for every occasion. Discover trendy ethnic,
+        western, and custom-designed outfits crafted with love.
+      </p>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: info@khushiboutique.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Jharkhand, India</p>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Khushi Boutique. All Rights Reserved.</p>
+  </div>
+</footer>
+ </body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(145deg, #1c1e25, black);
+  color:#e6007e;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    color:#db0979;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 10px;
+    box-shadow: 2px rgba(0,0,0,0.08);
+    position:fixed;
+    top: 0;
+    box-sizing: border-box;
+    left: 0;
+    z-index: 1000;
+    background:linear-gradient(145deg, #1c1e25, black);
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo-section img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.logo-section h2{
+    color:white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin-right: 50px;
+   
+}
+.nav-links a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s; 
+}
+
+.nav-links a:hover{
+    color: #ff1493;
+}
+
+.testimonial-section {
+  display: flex;
+  padding: 60px;
+  gap: 50px;
+  min-height: 100vh;
+  margin-top: 70px;
+}
+
+.testimonial-left {
+  flex: 1;
+  max-width: 320px;
+}
+
+.testimonial-left h2 {
+  font-size: 2.5rem;
+  margin-top: 130px;
+}
+
+.testimonial-left p {
+  line-height: 1.8;
+  color: #e6007e;
+}
+
+.review-note {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: #ffd700;
+}
+
+
+.testimonial-grid {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 18px;
+  border-radius: 18px;
+  position: relative;
+  backdrop-filter: blur(8px);
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.featured {
+  color: #222;
+}
+
+
+.featured p {
+  color: #333;
+}
+
+.quote {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 60px;
+  color: rgba(255,255,255,0.5);
+}
+
+.featured .quote {
+  color: #5c0099;
+}
+
+.stars {
+  color: gold;
+  font-size: 0.9rem;
+}
+
+.testimonial-card p {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.footer {
+  background:#3e3c3c;
+  color: #fff;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #f8c8dc;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #f8c8dc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+@media (max-width: 900px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    .nav-links{
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  .testimonial-section {
+    flex-direction: column;
+    padding: 40px;
+    gap:35px;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-left {
+    max-width: 100%;
+    font-size: 0.95rem;
+  }
+}
+</style>
